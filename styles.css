@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: pink;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fc90c2;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main > span {
+    align-self: center;
+    padding-bottom: 10px;
+    color: rgb(255, 0, 170);
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #99ccff;
+    color: rgb(255, 0, 128);
+}
+
+section div {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #f28cfc;
+    color: rgb(255, 0, 140);
+}
+
+section div h3 {
+    margin-top: 0;
+}
+
+section p {
+    background-color: #f0ff99;
+    padding: 10px;
+    color: #333;
+    border-radius: 5px;
+}
+
+ul {
+    background-color: #bffdff;
+    padding: 15px 20px;
+    color: rgb(255, 0, 157);
+}
+
+li {
+    background-color: #ffdefd;
+    padding: 10px 5px;
+    margin: 10px;
+}
+
+ol {
+    background-color: #abebff;
+    padding: 15px 20px;
+    color: rgb(255, 0, 170);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    background-color: #ff00b3;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+header {
+    background-image: url(pink.jpg);
+}
+h1 {
+    background-color: skyblue;
+    font-size: 40px;
+    font-weight: 10px;
+    padding: 100px 150px;
+    margin: 50px;
+    border-radius: 100px;
+    border: solid 2px rgb(255, 3, 221);
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    height: 150px;
+    color: rgb(255, 0, 149);
+    transition: 1s ease all;
+}
+
+h1:hover {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+    transform: translateX(-50px) scale(1) rotate(5deg);
+}
